@@ -4,8 +4,8 @@ import Navbar from "./components/Navbar";
 import Explore from "../src/pages/Explore";
 import Offers from "../src/pages/Offers";
 import Profile from "../src/pages/Profile";
-import Signin from "../src/pages/Signin";
-import Signup from "../src/pages/Signup";
+import SignIn from "./pages/SignIn";
+import SignUp from "./pages/SignUp";
 import ForgotPassword from "../src/pages/ForgotPassword";
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
           <Route path="/" element={<Explore />} />
           <Route path="/offers" element={<Offers />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/sign-in" element={<Signin />} />
-          <Route path="/sign-up" element={<Signup />} />
+          <Route path="/sign-in" element={<SignIn />} />
+          <Route path="/sign-up" element={<SignUp />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
         </Routes>
         <Navbar />
