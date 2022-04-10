@@ -12,6 +12,7 @@
 /build
 
 # misc
+/house-marketplace-resources
 .env
 .DS_Store
 .env.local
