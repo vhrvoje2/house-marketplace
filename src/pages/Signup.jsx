@@ -8,7 +8,7 @@ import { ReactComponent as ArrowRightIcon } from "../assets/svg/keyboardArrowRig
 import visibilityIcon from "../assets/svg/visibilityIcon.svg";
 import OAuth from "../components/OAuth";
 
-function Signup() {
+function SignUp() {
     const [showPassword, setShowPassword] = useState(false);
     const [formData, setFormData] = useState({
         name: "",
@@ -122,4 +122,4 @@ function Signup() {
     )
 }
 
-export default Signup;
+export default SignUp;

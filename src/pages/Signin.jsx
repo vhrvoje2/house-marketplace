@@ -6,7 +6,7 @@ import visibilityIcon from "../assets/svg/visibilityIcon.svg";
 import { toast } from "react-toastify";
 import OAuth from "../components/OAuth";
 
-function Signin() {
+function SignIn() {
     const [showPassword, setShowPassword] = useState(false);
     const [formData, setFormData] = useState({
         email: "",
@@ -101,4 +101,4 @@ function Signin() {
     )
 }
 
-export default Signin;
+export default SignIn;
